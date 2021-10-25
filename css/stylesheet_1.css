@@ -1,3 +1,183 @@
+html {
+    margin 0;
+    padding 0;
+}
+
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgb(255, 255, 255) url(../img/coolcitylights.jpg) no-repeat fixed;
+
+}
+
+
+a {
+}
+
+/* Link styles from w3schools css_link*/
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+  
+  /* visited link */
+a:visited {
+    color: rgb(128, 0, 85);
+}
+  
+  /* mouse over link */
+a:hover {
+    color: rgb(105, 220, 255);
+}
+  
+  /* selected link */
+a:active {
+    color: blue;
+}
+
+
+
+
 .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+div {
+    text-align: center;
+    color: black;
+    background-color: rgba(240, 248, 255, 0.589);
+    margin: 5%;
+    padding: 2%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    color: black;
+
+}
+
+footer a {
+    text-align:center;
+    color: black;    
+    background-color:rgba(240, 248, 255, 0.589);
+    padding: 5px;
+    border: 5px;
+}
+
+
+footer p {
+    text-align:center;
+    color: black;    
+    background-color:rgba(240, 248, 255, 0.589);
+    padding: 5px;
+    border: 5px;
+}
+
+
+#mailme {
+    text-align:center;
+    color: black;    
+    background-color:rgba(240, 248, 255, 0.589);
+    padding: 5px;
+    margin:4%; 
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    background-color:rgba(240, 248, 255, .9) ;
+    padding-block: 25px;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    margin: auto;
+    border: 2px;
+    padding: 2px;
+    clear: both;
+    background-color: rgba(240, 248, 255, .589);
     
+}
+
+h4 {
+    text-align: center;
+    color: black;
+    margin: auto;
+    background-color: rgba(240, 248, 255, .9);
+}
+
+img {
+    
+    max-width: 100%;
+    max-height: 100%;
+    object-fit:contain;
+}
+
+#propic {
+    float:right;
+    width: 15%;
+    height: auto;
+    
+    display: block;
+    background-color: rgba(240, 248, 255, .9);
+
+    margin:auto;
+}
+
+
+
+/*
+nav>a{
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    margin: 2px;
+    padding: 2px;
+    border: 1px dotted black;
+    text-align: center;
+    font-size: large;
+    color:  rgb(255, 236, 67);
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+nav>a:hover{
+    color: white;
+    background-color:black;
+}
+*/
+
+
+
+
+p {
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.589);
+    padding: 5%;
+
+}
+
+blockquote {
+    text-align: center;
+    color: black;
+    background-color: rgba(240, 248, 255, 0.589);
+
+}
+
+.school {
+    text-align: end;
+}
+
+section {
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.589);
+    margin: 5%;
+
 }
