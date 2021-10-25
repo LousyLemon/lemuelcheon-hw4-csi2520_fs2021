@@ -40,7 +40,7 @@ a:active {
 
 #bar {
     border: 25px;
-    background-color: rgba(29, 113, 187, 0.7)
+    background-color: rgba(29, 113, 187, 0.7);
 }
 
 .center {
@@ -84,8 +84,13 @@ footer p {
     border: 5px;
 }
 
-
+#emailme {
+    
+    background-image: rgb(255,255,255) url(../img/emailicon.png);
+    display: block;
+}
 #mailme {
+    border-radius: 10px;
     text-align:center;
     color: black;    
     background-color:rgba(240, 248, 255, 0.589);
@@ -121,6 +126,7 @@ h4 {
     background-color: rgba(240, 248, 255, .9);
 }
 
+
 img {
     border-radius: 2px;
     max-width: 100%;
@@ -145,26 +151,27 @@ img {
 
 
 
-/*
-nav>a{
+
+nav a {
     display: inline-block;
     position: relative;
     top: 10px;
     margin: 2px;
-    padding: 2px;
-    border: 1px dotted black;
+    padding: 15px;
+    border: 1px solid black;
     text-align: center;
     font-size: large;
-    color:  rgb(255, 236, 67);
-    background-color: cadetblue;
+    color:  rgb(255, 255, 255);
+    background-color: rgba(29, 113, 187, 0.7);
     cursor: pointer;
 }
 
-nav>a:hover{
+nav a:hover{
     color: white;
     background-color:black;
 }
-*/
+
+
 
 
 
