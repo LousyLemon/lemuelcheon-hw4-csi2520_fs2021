@@ -1,6 +1,6 @@
 html {
-    margin 0;
-    padding 0;
+    margin 0px;
+    padding 0px;
 }
 
 
@@ -203,21 +203,16 @@ menu a, menu a:visited {
     cursor: pointer;
 }
 
-nav a:hover{
-    color: white;
+.naviB a:hover{
+    color: rgb(21, 64, 156);
     background-color:black;
 }
 
- {
-
-}
-
-
-/*nav li {
+nav li {
     float: left;
 }
 
-*/
+
 
 p {
     border-radius: 10px;
