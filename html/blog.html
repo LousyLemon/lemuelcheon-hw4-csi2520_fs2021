@@ -7,17 +7,45 @@
     <title>Blog</title>
     <link rel="icon" type="image/png" href="../img/MaintenanceIcon.png">
     <link rel="stylesheet" href="../css/stylesheet_1.css">
+    <link rel="stylesheet" href="../css/comment.css">
+
 </head>
 <body>
-    <nav id="nav_bar">
+    <nav id="nav_bar" class="naviB">
         <menu>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="my_resume.html">My Resume</a></li>
-            <li><a href="my_fun_facts.html">Fun Facts</a></li>
+            <ul class="menu-items">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="my_resume.html">My Resume</a></li>
+                <li><a href="my_fun_facts.html">Fun Facts</a></li>
+            </ul>
         </menu>
     </nav>
-    
+
+<div id="header_1">
     <h1>Blog page</h1>
-    <p>Nothing here yet.</p>    
+</div>    
+
+<div class="content">
+    
+</div>
+
+<!-- comment section tutorial from https://javascript.plainenglish.io/how-to-create-a-comment-section-using-html-and-vanilla-js-aa6b6a53b9cf -->
+
+<div class="container">
+    <label for="newComment" name="newComment">Add your comment below-</label>
+    <textarea id="newComment"></textarea>
+    <button id="addComments">Add Comment</button>
+    <div id="pageComments"></div>
+</div>
+
+
+<script src="../js/index.js"></script>
+
+
+    <footer>
+        <br><br><br><hr>
+        <p>&copy; Lemuel Cheon 2021</p>
+        <a href="mailto:lscheon@oakland.edu">lscheon@oakland.edu<br><br></a>
+    </footer>
 </body>
 </html>
